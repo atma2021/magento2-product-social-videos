@@ -1,0 +1,25 @@
+{
+  "name": "atma/magento2-product-social-videos",
+  "description": "Magento 2 - Load Embed Videos (TitTok, Youtube) for products on the product page",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Atma Development",
+      "email": "atma.business2020@gmail.com",
+      "homepage": "https://atma-development.com/",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Atma\\Atma_SocialVideos\\": ""
+        }
+    }
+}

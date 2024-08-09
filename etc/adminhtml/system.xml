@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="atma" translate="label" sortOrder="110">
+            <label>Atma</label>
+        </tab>
+        <section id="configuration" translate="label" type="text" sortOrder="10" showInDefault="1" showInStore="0">
+            <tab>atma</tab>
+            <group id="tiktok" translate="label" type="text" sortOrder="10" showInDefault="1" showInStore="0">
+                <label>Tiktok Settings</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Tiktok Embed Videos</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>It will enable/disable tiktok embed videos on the product page</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
