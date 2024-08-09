@@ -19,7 +19,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Atma\\Atma_SocialVideos\\": ""
+            "Atma\\SocialVideos\\": ""
         }
     }
 }
