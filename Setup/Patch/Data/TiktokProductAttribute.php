@@ -1,5 +1,5 @@
 <?php
-namespace Atma\Atma_SocialVideos\Setup\Patch\Data;
+namespace Atma\SocialVideos\Setup\Patch\Data;
 
 use Magento\Catalog\Model\Product;
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;

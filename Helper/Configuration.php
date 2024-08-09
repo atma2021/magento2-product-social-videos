@@ -1,5 +1,5 @@
 <?php
-namespace Atma\Atma_SocialVideos\Helper;
+namespace Atma\SocialVideos\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
