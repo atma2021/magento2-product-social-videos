@@ -21,4 +21,4 @@ Go to:
 
 
 ## Todo:
-1. Youtube integration (This is also )
+1. Youtube integration (You don't need this module if you prefer to add the youtube video directly in the gallery section. That is default Magento 2 )
