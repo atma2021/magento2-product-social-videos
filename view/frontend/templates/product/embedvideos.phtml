@@ -4,5 +4,23 @@ use Atma\SocialVideos\Block\Product\Videos;
 /** @var Videos $block */
 ?>
 <?php if ($block->enableEmbedTikTokVideos()): ?>
-    <?= $block->getProductTikTokVideo(); ?>
+    <iframe class="video-iframe" src="https://www.tiktok.com/player/v1/<?=$block->getProductTikTokVideo()?>?&music_info=1&description=1" allow="fullscreen" title="test"></iframe>
 <?php endif;?>
+<style>
+.video-iframe{
+    height:500px;
+    width:600px;
+}
+@media only screen and (max-width: 960px) {
+    .video-iframe{
+        height:400px;
+        width:300px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .video-iframe{
+        height:250px;
+        width:220px;
+    }
+}
+</style>

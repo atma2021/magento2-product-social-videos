@@ -3,7 +3,7 @@
     <default>
         <configuration>
             <tiktok>
-                <enable>1</enable>
+                <enable>0</enable>
                 <enable_tiktok>0</enable_tiktok>
             </tiktok>
         </configuration>

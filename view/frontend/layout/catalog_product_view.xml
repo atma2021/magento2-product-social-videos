@@ -8,7 +8,7 @@
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="product.info.details">
-            <block class="Atma\SocialVideos\Block\Product\Videos" name="custom.product.social.videos" template="Atma_SocialVideos::product/embedvideos.phtml" group="detailed_info">
+            <block ifconfig="configuration/tiktok/enable" class="Atma\SocialVideos\Block\Product\Videos" name="custom.product.social.videos" template="Atma_SocialVideos::product/embedvideos.phtml" group="detailed_info">
                 <arguments>
                     <argument name="title" xsi:type="string">Video</argument>
                 </arguments>
