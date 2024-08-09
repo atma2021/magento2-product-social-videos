@@ -45,10 +45,12 @@ class Videos extends Template
         if ($product !== null){
             $pattern = '/\/video\/(\d+)/';
             $fullTiktokUrl = (string) $product->getData(TiktokProductAttribute::TIKTOK_VIDEO_PRODUCT_ATTRIBUTE);
-                if (preg_match($pattern, $fullTiktokUrl, $matches)) {
-                    // $matches[1] contains the video ID
-                    return $matches[1];
-                }
+            if (preg_match($pattern, $fullTiktokUrl, $matches)) {
+                // $matches[1] contains the video ID
+                return $matches[1];
+            }else{
+                return '';
+            }
         }else{
             return '';
         }
