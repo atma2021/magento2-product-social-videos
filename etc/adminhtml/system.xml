@@ -8,11 +8,16 @@
         <section id="configuration" translate="label" type="text" sortOrder="10" showInDefault="1" showInStore="0">
             <tab>atma</tab>
             <group id="tiktok" translate="label" type="text" sortOrder="10" showInDefault="1" showInStore="0">
-                <label>Tiktok Settings</label>
+                <label>Social Video Settings</label>
                 <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Embed Videos</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Enable/Disable all videos</comment>
+                </field>
+                <field id="enable_tiktok" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Enable Tiktok Embed Videos</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>It will enable/disable tiktok embed videos on the product page</comment>
+                    <comment>It will enable/disable tiktok embed video on the product page</comment>
                 </field>
             </group>
         </section>

@@ -12,7 +12,7 @@ use Magento\Framework\Validator\ValidateException;
 
 class TiktokProductAttribute implements DataPatchInterface, PatchRevertableInterface
 {
-    public const TIKTOK_VIDEO_PRODUCT_ATTRIBUTE = 'atma_tiktok_video';
+    public const TIKTOK_VIDEO_PRODUCT_ATTRIBUTE = 'c';
 
     /**  @var ModuleDataSetupInterface */
     private ModuleDataSetupInterface $moduleDataSetup;

@@ -1,0 +1,8 @@
+<?php
+use Atma\SocialVideos\Block\Product\Videos;
+
+/** @var Videos $block */
+?>
+<?php if ($block->enableEmbedTikTokVideos()): ?>
+    <?= $block->getProductTikTokVideo(); ?>
+<?php endif;?>
